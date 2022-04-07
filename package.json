@@ -1,11 +1,12 @@
 {
-  "name": "@orbs-network/polygon-cleanup",
+  "name": "@orbs-network/polygon-utils",
   "version": "1.0.0",
   "description": "Set of scripts to clean up annoying resources which terraform fails to clean between polygon runs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "disk-size--dev": "bin/polygon-utils.js disk-size --profile default"
+    "increase-disk-size--dev": "bin/polygon-utils.js increase-disk-size",
+    "clean-disk--dev": "bin/polygon-utils.js clean-disk"
   },
   "bin": {
     "polygon-utils": "bin/polygon-utils.js"
