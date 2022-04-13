@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "increase-disk-size": "bin/polygon-utils.js increase-disk-size",
-    "clean-disk": "bin/polygon-utils.js clean-disk"
+    "run-increase-disk-size": "bin/polygon-utils.js increase-disk-size",
+    "run-clean-disk": "bin/polygon-utils.js clean-disk",
+    "npm-publish" : "npm publish"
   },
   "bin": {
     "polygon-utils": "bin/polygon-utils.js"
