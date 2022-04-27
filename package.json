@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "run-increase-disk-size": "bin/polygon-utils.js increase-disk-size",
+    "run-increase-disk-size-with-auto-resize-part": "bin/polygon-utils.js increase-disk-size --automatic-partition-resize true",
+    "run-increase-disk-size-with-auto-resize-part-advanced": "bin/polygon-utils.js increase-disk-size --automatic-partition-resize true --advanced-mode true",
     "run-clean-disk": "bin/polygon-utils.js clean-disk",
-    "npm-publish" : "npm publish"
+    "npm-publish": "npm publish"
   },
   "bin": {
     "polygon-utils": "bin/polygon-utils.js"
